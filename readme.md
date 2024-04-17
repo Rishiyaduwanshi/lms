@@ -1,7 +1,3 @@
-Certainly! Here's a simple README template you can use for your GitHub repository:
-
----
-
 # Library Management System (LMS) Frontend
 
 ## Overview
