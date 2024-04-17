@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         userDetailsDiv.innerHTML = `
             <p><strong>Username:</strong> ${storedUser.username}</p>
             <p><strong>Branch:</strong> ${storedUser.branch}</p>
-            <p><strong>Registration number:</strong> ${storedUser.usn}</p>
+            <p><strong>Registration number:</strong> ${storedUser.rgNo}</p>
             <p><strong>Semester:</strong> ${storedUser.semester}</p>
         `;
         const logoutBtn = document.getElementById("logoutBtn");

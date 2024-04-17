@@ -6,25 +6,19 @@ signupForm.addEventListener("submit", function(event) {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
     const branch = document.getElementById("branch").value;
-    const usn = document.getElementById("usn").value;
+    const rgNo = document.getElementById("rgNo").value;
     const semester = document.getElementById("semester").value;
 
-    // Create a user object with form data
     const user = {
         username: username,
         password: password,
         branch: branch,
-        usn: usn,
+        rgNo: rgNo,
         semester: semester
     };
 
-    // Store the user object in local storage
     localStorage.setItem(user.username, JSON.stringify(user));
     alert("Sign Up Success")
 
-    // Optionally, you can redirect to a different page after signup
-    // window.location.href = "success.html";
-
-    // Reset the form after submission
     signupForm.reset();
 });
